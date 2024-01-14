@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1084260749599",
+    "project_id": "bujutsu-sosei",
+    "storage_bucket": "bujutsu-sosei.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084260749599:android:afc116000751b5e4d2602a",
+        "android_client_info": {
+          "package_name": "es.bujutsu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLX5sGtEULffVdrW-2csL798fk51k4beg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

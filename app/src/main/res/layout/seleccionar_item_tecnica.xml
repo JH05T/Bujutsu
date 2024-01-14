@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="8dp">
+
+<ImageView
+    android:id="@+id/imageViewTecnica"
+    android:layout_width="256dp"
+    android:layout_height="256dp"
+    android:scaleType="centerCrop" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="8dp">
+
+    <TextView
+        android:id="@+id/textViewInfoTecnica"
+        style="@style/items"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:gravity="center|center_vertical"
+        android:text="Información de la Técnica"
+        android:background="@drawable/button_selector"/>
+
+    <Button
+        android:id="@+id/buttonAgregarNuevaTecnica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir"
+        android:background="@drawable/button_selector"
+        style="@style/items"/>
+</LinearLayout>
+
+</LinearLayout>
